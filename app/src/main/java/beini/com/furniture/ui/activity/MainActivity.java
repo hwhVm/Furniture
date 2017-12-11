@@ -19,5 +19,14 @@ public class MainActivity extends BaseActivity {
         build.inject(this);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        System.exit(0);
+    }
 }
