@@ -12,4 +12,7 @@
         android:layout_marginTop="33dp"
         app:placeholderImage="@mipmap/ic_launcher" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RelativeLayout>
 </LinearLayout>

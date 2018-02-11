@@ -2,11 +2,14 @@ package beini.com.furniture.ui.fragments.user;
 
 
 import android.net.Uri;
+
 import com.facebook.drawee.view.SimpleDraweeView;
+
 import beini.com.furniture.R;
 import beini.com.furniture.bind.ContentView;
 import beini.com.furniture.bind.ViewInject;
 import beini.com.furniture.ui.fragments.BaseFragment;
+
 
 /**
  * Create  by beini  2017/12/11
@@ -25,6 +28,7 @@ public class LoginFragment extends BaseFragment {
 //                .setOldController(image_demo.getController())
 //                .build();
         image_demo.setImageURI(uri);
+
     }
 
     @Override
